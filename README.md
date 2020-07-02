@@ -1,6 +1,6 @@
 # Unraveling Renal Cell Carcinoma Subtypes and Prognoses by Integrative Histopathology-Genomics Analysis
 
-This repository contains the trained convolutional neural networks for predicting renal cell carcinoma subtypes, molecular profiles, and prognoses.
+This repository contains the source codes and the trained convolutional neural networks for predicting renal cell carcinoma subtypes, molecular profiles, and prognoses.
 
 All models are trained using Talos with keras and tensorflow-gpu backend. 
 
