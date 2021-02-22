@@ -22,6 +22,15 @@ Under the copy_number_alteration/ directory. We predicted the copy number altera
 ## Tumor mutation burden prediction
 Under the tumor_mutation_burden/ directory. We demonstrated that the histopathology-based features are moderately correlated with tumor mutation burden measured by whole-exome sequencing (Spearman's correlation 0.419; correlation test p = 0.0003).
 
+## Ploidy prediction
+Under the ploidy/ directory. We trained a binary classification model to predict ploidy > 2 with AUC = 0.633 in papillary renal cell carcinoma.
+
+## CDKN2A prediction
+Under the cdkn2a/ directory. We trained a binary classification model to predict CDKN2A deletion with AUC = 0.713 in clear cell renal cell carcinoma and AUC = 0.639 in papillary renal cell carcinoma.
+
+## 9p deletion prediction
+Under the 9p_deletion/ directory. We trained a binary classification model to predict 9p deletion with AUC = 0.548 in clear cell renal cell carcinoma and AUC = 0.678 in papillary renal cell carcinoma.
+
 
 ## Instructions on using talos
 The full documentation of talos could be found [here](https://autonomio.github.io/talos/#/).
