@@ -8,9 +8,9 @@
 subtype         = "KIRC"
 model_type      = "Res50"
 gpu_id          = "1"
-date 			      = '20200609_2'
+date 		= '20200609_2'
 
-hdf5_path 	   	= '/mnt/data1/eliana/' + subtype + '_pancancer_mutcount.hdf5'
+hdf5_path 	= '/mnt/data1/eliana/' + subtype + '_pancancer_mutcount.hdf5'
 experiment_name = subtype + 'PanCancerMutCountRegression' + model_type
 
 
@@ -69,11 +69,10 @@ from sklearn.metrics import confusion_matrix
 # Set parameters
 
 param_dict = {'batch_size': [64], 
-		          'epochs': [12],
-		          'lr': [2,3,4],
-		          'optimizer': [Adam],
+	      'epochs': [12],
+	      'lr': [2,3,4],
+	      'optimizer': [Adam],
               'losses': ['mean_squared_error'],
-              #'early_stopper': ['moderate'],
               'kernel_initializer': ['random_uniform'],
               'bias_initializer': ['glorot_normal']}
 
@@ -206,7 +205,6 @@ scan_object = ta.Scan(x=train_X, y=train_y_lognorm.flatten(),
                       experiment_name=experiment_name + '_scan',
                       print_params=True,
                       save_weights=True)
-
 
 
 # Analyze hyperparameter optimization results
