@@ -243,7 +243,7 @@ with open(inputFile,'r') as f:
 
 # For the high predictions whose rankings were close:
 
-predOutFilename = './KIRCPanCancerMutCountRegressionRes5020200609_2_HighPredictions.txt' # file that contains patch filenames of patients with higher predictions & almost correct rankings (see Interactive Session Code section above for how this file was created)
+predOutFilename = './KIRCPanCancerMutCountRegressionRes5020200609_2_HighPredictions.txt' # file that contains patch filenames of patients with higher predictions
 
 inputFile = predOutFilename
 shuffle = True
